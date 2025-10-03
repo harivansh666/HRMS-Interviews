@@ -15,7 +15,13 @@ import {
   SidebarTrigger,
 } from "./ui/sidebar";
 
-import { Calendar, Home, Inbox, LucideVideo, Settings } from "lucide-react";
+import {
+  Calendar,
+  Home,
+  Inbox,
+  LayoutDashboardIcon,
+  LucideVideo,
+} from "lucide-react";
 
 export function AppSidebar() {
   const items = [
@@ -33,6 +39,11 @@ export function AppSidebar() {
       title: "Tasks",
       url: "/tasks",
       icon: Calendar,
+    },
+    {
+      title: "Projects",
+      url: "/projects",
+      icon: LayoutDashboardIcon,
     },
     {
       title: "Interviews",

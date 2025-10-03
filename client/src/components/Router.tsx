@@ -4,6 +4,7 @@ import DailyAttendence from "./DailyAttendence";
 import Tasks from "./Tasks";
 import Interviews from "./Interviews";
 import { AppSidebar } from "./app-sidebar";
+import Projects from "./Projects";
 
 function Router() {
   return (
@@ -14,6 +15,7 @@ function Router() {
         <Route path="daily-attendance" element={<DailyAttendence />} />
         <Route path="tasks" element={<Tasks />} />
         <Route path="interviews" element={<Interviews />} />
+        <Route path="projects" element={<Projects />} />
       </Route>
     </Routes>
   );
